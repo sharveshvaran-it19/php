@@ -3,14 +3,13 @@
 <head><title>adding two numbers</title>
 <body>
 <?php
-for($a=1;$a<=10;$a++)
-if($a==5)
+
+ $a=5;
+for($s=1;$s<=30;$s++)
 {
-echo "five<br>";
+$c=$s*$a;
+echo"$s x $a=$c<br>";
 }
-else
-{
-echo "$a<br>";
-}?>
+?>
 </body>
 </html>
